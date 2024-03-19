@@ -1,10 +1,29 @@
+:root {
+  --color-orange: #B1884B;
+  --color-darkBlue: #3D5C83;
+  --color-lightBlue: #8C909A;
+  --color-ivory: rgb(252, 255, 235);
+  --color-black: rgba(8, 11, 17, 0.897);
+  --color-lightBlack: rgba(8, 11, 17, 0.5);
 
+  background-color: var(--color-ivory);
+}
 
 .jost-thin {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+}
+
+.font-fancy {
+  font-family: 'woodland', sans-serif;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: 'woodland';
+  src: url(./assets/fonts/Woodland-K7Y0e.otf);
 }
 
 * {
@@ -21,7 +40,6 @@
 }
 
 
-
 button {
   padding: 5px;
   border-radius: 2px;
@@ -30,17 +48,66 @@ button {
 }
 
 .button-light {
-  background-color: var(--color-ivory);
-
+  background-color: (var(--color-ivory));
+}
+.button-orange-full {
+  background-color: var(--color-orange);
+  color: var(--color-ivory);
 }
 
-:root {
-  --color-orange: #B1884B;
-  --color-darkBlue: #3D5C83;
-  --color-lightBlue: #8C909A;
-  --color-ivory: #FCFFEB;
-  --color-black: rgba(8, 11, 17, 0.897);
-  --color-lightBlack: rgba(8, 11, 17, 0.5);
-
-  background-color: var(--color-ivory);
+img {
+  object-fit:contain;
+  width: 100%;
+  height: 100%;
 }
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+}
+
+.section-ceremony-reception-info {
+  margin: 20px 0;
+}
+
+.ceremony-reception-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: .5rem;
+
+  background-color: color-mix(in srgb, var(--color-ivory) 70%, transparent);
+  border-radius: 5px;
+  border-top: 1px solid var(--color-orange);
+  border-bottom: 1px solid var(--color-orange);
+  
+}
+.ceremony-reception-info h3 {
+  font-weight: 500;
+}
+
+.rsvp button {
+  
+
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-ivory);
+
+  background-color: var(--color-orange);
+  box-shadow: 0 0 10px 10px color-mix(in srgb, var(--color-ivory) 70%, transparent);
+}
+
