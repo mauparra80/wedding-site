@@ -1,7 +1,10 @@
 import MobileDropdownNav from "./modules/mobile-dropdown-nav/Mobile-dropdown-nav"
+import Footer from "./modules/footer/footer";
 import titlepic from './assets/imgs/blue-orange-full.png'
 import cafePic from './assets/imgs/cafe.png'
 import FAQSSection from "./modules/Dropdown-Faqs/FAQSSection";
+import registryPic from './assets/imgs/registry-office.png'
+import seriousPic from './assets/imgs/serious-door.png'
 
 
 
@@ -52,7 +55,19 @@ export default function Home() {
         <FAQSSection />
       </div>
 
+      <div className="section section-registry">
+        <img src={registryPic} alt="registry logo" />
+        <a href="https://www.myregistry.com/wedding-registry/william-garcia-and-mariel-parra-houston-tx/4039961/giftlist" target="_blank"><button className="button-orange-full font-fancyTwo" >Wedding Registry</button></a>
+      </div>
+
+      <div className="section section-last">
+        <h2>Be There<br></br> Or Else</h2>
+        <img className="serious-pic" src={seriousPic} alt="title couple image"/>
+      </div>
+
       <MobileDropdownNav scrollToSection = {scrollToSection}/>
+
+      <Footer />
     </>
   )
 }

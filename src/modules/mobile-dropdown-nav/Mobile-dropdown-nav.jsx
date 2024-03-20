@@ -14,10 +14,9 @@ return (
     <nav className="dropdown-menu">
       <button className="exit" onClick={() => setNavExpand((prev) => !prev)}>X</button>
       <ul>
-        <li><button className="button-light" onClick={() => scrollToSection('section1')}>RSVP</button></li>
-        <li><button className="button-light" onClick={() => scrollToSection('section2')}>About Us</button></li>
-        <li><button className="button-light" onClick={() => scrollToSection('section3')}>Registry</button></li>
-        <li><button className="button-light" onClick={() => scrollToSection('section3')}>FAQs</button></li>
+        <li><button className="button-light nav-button" onClick={() => scrollToSection('section1')}>RSVP</button></li>
+        <li><button className="button-light nav-button" onClick={() => scrollToSection('section2')}>Details</button></li>
+        <li><button className="button-light nav-button" onClick={() => scrollToSection('section3')}>Registry</button></li>
         {/* Add more links as needed */}
       </ul>
     </nav>

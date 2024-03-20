@@ -1,0 +1,17 @@
+
+
+.footer {
+  margin-top: 20px;
+}
+
+.signature {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  img {
+    width: 50px;
+  }
+}

@@ -52,6 +52,7 @@ export default function FAQSSection() {
 
   return (
     <div className="section-information">
+      <h1 className="details-title font-fancyTwo">Details</h1>
       {Faqs.map((item) => (
       <Item key={item.id} {...item}/> ))}
     </div>
