@@ -17,12 +17,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="section">
+      <div className="section section-title">
         <div className="title">
           <h1 className="font-fancy">William & Mariel</h1>
           <h3>April 6th, 2024</h3>
         </div>
-        <img src={titlepic} alt="title couple image"/>
+        <img className="title-pic" src={titlepic} alt="title couple image"/>
       </div>
 
       <div className="section section-ceremony-reception-info">
@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       <div className="section">
-      <img src={cafePic} alt="title couple image"/>
+      <img className="cafe-pic" src={cafePic} alt="title couple image"/>
       </div>
 
       <div className="section section-information">

@@ -9,6 +9,27 @@
   background-color: var(--color-ivory);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .jost-thin {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -26,18 +47,7 @@
   src: url(./assets/fonts/Woodland-K7Y0e.otf);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
 
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
 
 
 button {
@@ -55,17 +65,22 @@ button {
   color: var(--color-ivory);
 }
 
-img {
-  object-fit:contain;
-  width: 100%;
-  height: 100%;
-}
+
 
 .section {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.title-pic {
+  max-height: 450px;
+}
+.cafe-pic {
+  max-height: 600px;
+  transform: translateX(-70px);
 }
 
 .title {
@@ -73,11 +88,16 @@ img {
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  top: 20px;
+  top: 20%;
+  z-index: 99;
+
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .section-ceremony-reception-info {
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .ceremony-reception-info {
@@ -87,7 +107,7 @@ img {
   max-width: 300px;
   padding: 20px 30px;
   text-align: center;
-  font-size: .5rem;
+  font-size: 1rem;
 
   background-color: color-mix(in srgb, var(--color-ivory) 70%, transparent);
   border-radius: 5px;
@@ -100,10 +120,8 @@ img {
 }
 
 .rsvp button {
-  
-
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 10px 50px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-ivory);
 

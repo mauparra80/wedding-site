@@ -9,9 +9,9 @@ export default function Item({title, answer}) {
  
   return (
     <div className="FAQS-dropdown-item">
-        <div className="dropdown-title">
+        <div className="dropdown-title" onClick={() => setItemOpen((prev) => !prev)}>
           <h2>{title}</h2>
-          <button onClick={() => setItemOpen((prev) => !prev)}>{itemOpen ? <h2>&#8743;</h2> : <h2>&#8744;</h2>}</button>
+          {itemOpen ? <h2>&#8743;</h2> : <h2>&#8744;</h2>}
         </div>
       
       {itemOpen && 
