@@ -72,16 +72,22 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .title-pic {
-  max-height: 450px;
+  object-fit: cover;
+  max-height: 500px;
 }
 .cafe-pic {
   max-height: 600px;
   transform: translateX(-70px);
 }
+img {
+ 
+}
+
 
 .title {
   position: absolute;
@@ -90,10 +96,16 @@ button {
   transform: translateX(-50%);
   top: 20%;
   z-index: 99;
+  width: 80%;
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+}
+
+.section-title {
+  height: 500px;
+  max-width: 100%;
 }
 
 .section-ceremony-reception-info {

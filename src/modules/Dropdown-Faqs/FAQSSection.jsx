@@ -36,12 +36,16 @@ export default function FAQSSection() {
     },
     {
       title: "Parking and Commuting",
-      answer: "stuff",
+      answer: "There will be plenty of parking at St Martha Catholic Church parking lot. From there, we recomend you uber the Parra Home because redidential parking is very limited",
       id: 2
     },
     {
       title: "Dress Code",
-      answer: "asdf",
+      answer: <div>
+        {/* b and i not working */}
+                <b >Women: </b> <i>Cocktail</i> 
+                <p>Men: Guayabera</p>
+              </div>,
       id: 3
     },
   ]
