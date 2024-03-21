@@ -25,6 +25,10 @@
   gap: 10px;
   justify-content: space-between;
 }
+.dropdown-title:hover{
+  cursor: pointer;
+  font-size: 1.1rem;
+}
 .dropdown-title button {
   background-color: var(--color-tan)
 }
@@ -65,4 +69,10 @@
         opacity: 0;}
   to {transform: translateY(0%);
       opacity: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+  .section-information {
+    width: 500px;
+  }
 }

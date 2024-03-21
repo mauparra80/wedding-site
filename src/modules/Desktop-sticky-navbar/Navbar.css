@@ -1,0 +1,19 @@
+
+.desktop-navbar {
+  z-index: 999;
+  width: 100vw;
+  background-color: color-mix(in srgb, var(--color-orange) , 10% transparent);
+  color: white;
+}
+
+.desktop-navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.desktop-navbar button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+

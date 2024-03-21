@@ -20,6 +20,8 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+
+  transition: .1s ease-in;
 }
 
 #root {
@@ -52,7 +54,11 @@
 }
 
 
-
+.hover-effect:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: .2s ease-in
+}
 
 button {
   padding: 5px;
@@ -69,16 +75,22 @@ button {
   color: var(--color-ivory);
 }
 
-
-
 .section {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: visible;
   max-width: 100%;
 }
+
+.section-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 
 .title-pic {
   object-fit: cover;
@@ -166,5 +178,27 @@ button {
     font-weight: 700;
     font-size: 2rem;
     color: var(--color-ivory);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .cafe-pic {
+    transform: none;
+  }
+  .banner-img {
+    width: 100vw;
+    object-fit: cover;
+  }
+  .section-mobileNav {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .section-navbar {
+    visibility: hidden;
   }
 }
