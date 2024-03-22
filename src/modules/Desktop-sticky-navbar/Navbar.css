@@ -8,12 +8,17 @@
 
 .desktop-navbar ul {
   display: flex;
+  gap: 30px;
   justify-content: center;
 }
 
 .desktop-navbar button:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.desktop-navbar button {
+  font-size: 1.5rem;
 }
 
 
