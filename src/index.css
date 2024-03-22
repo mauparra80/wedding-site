@@ -182,9 +182,9 @@ button {
 }
 
 @media only screen and (min-width: 600px) {
-  :root {
+  /* :root {
     font-size: 12px;
-  }
+  } */
   .cafe-pic {
     transform: none;
   }
