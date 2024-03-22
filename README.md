@@ -1,11 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<table>
+<tr>
+<td>
 
-Currently, two official plugins are available:
+# Wedding Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Template for wedding site for a customer
 
 
-https://marielwillwedding.netlify.app/
+</td>
+<td align="right">
+
+[![Live Preview](./src/assets/livePreview.png)](https://marielwillwedding.netlify.app/)
+
+</td>
+</tr>
+</table>
+
+
+## Skills, Techniques, and methods practiced.
+
+- React / Vite
+- css, sass
+- Mobile first approach
+
+### Struggled on
+
+- some image styling again
+
+### Learned
+
+- how to start with a mobile layout and @media into a desktop
+
+## Acknowledgments
+
+  - Mariel and Will for letting me use their site in my portfolio 
+
+### [Live Preview]([https://mysticmodeshop.netlify.app/](https://marielwillwedding.netlify.app/)https://marielwillwedding.netlify.app/)
+
+
+
+
