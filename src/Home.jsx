@@ -12,7 +12,6 @@ import seriousPic from './assets/imgs/serious-door.png'
 TODO
 - Add RSVP
 - add Download PDF
-- desktop navbar
 */
 
 export default function Home() {
