@@ -188,10 +188,10 @@ button {
   .cafe-pic {
     transform: none;
   }
-  .banner-img {
+  /* .banner-img {
     width: 100vw;
     object-fit: cover;
-  }
+  } */
   .section-mobileNav {
     visibility: hidden;
   }
