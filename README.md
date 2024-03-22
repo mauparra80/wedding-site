@@ -11,7 +11,7 @@ Template for wedding site for a customer
 </td>
 <td align="right">
 
-[![Live Preview](./src/assets/livePreview.png)](https://marielwillwedding.netlify.app/)
+[![Live Preview](./livePreview.png)](https://marielwillwedding.netlify.app/)
 
 </td>
 </tr>
