@@ -11,7 +11,7 @@ Template for wedding site for a customer
 </td>
 <td align="right">
 
-[![Live Preview](./livePreview.png)](https://marielwillwedding.netlify.app/)
+[![Live Preview](./livePreview.png)](https://mauparra80.github.io/wedding-site/)
 
 </td>
 </tr>
@@ -36,7 +36,7 @@ Template for wedding site for a customer
 
   - Mariel and Will for letting me use their site in my portfolio 
 
-### [Live Preview]([https://mysticmodeshop.netlify.app/](https://marielwillwedding.netlify.app/)https://marielwillwedding.netlify.app/)
+### [Live Preview]([https://mauparra80.github.io/wedding-site/])
 
 
 
