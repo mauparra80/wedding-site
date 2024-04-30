@@ -69,7 +69,7 @@ export default function Home() {
 
       <div className="section section-registry" id="section-registry">
         <img src={registryPic} alt="registry logo" />
-        <a href="https://www.myregistry.com/wedding-registry/william-garcia-and-mariel-parra-houston-tx/4039961/giftlist" target="_blank"><button className="button-orange-full font-fancyTwo hover-effect" >Wedding Registry</button></a>
+        <a href="" target="_blank"><button className="button-orange-full font-fancyTwo hover-effect" >Wedding Registry</button></a>
       </div>
 
       <div className="section section-last">

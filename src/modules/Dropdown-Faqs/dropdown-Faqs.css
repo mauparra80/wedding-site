@@ -27,7 +27,7 @@
 }
 .dropdown-title:hover{
   cursor: pointer;
-  font-size: 1.1rem;
+  text-decoration: underline;
 }
 .dropdown-title button {
   background-color: var(--color-tan)
